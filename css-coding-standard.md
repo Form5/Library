@@ -1,13 +1,13 @@
 # CSS
-- We use Sass or Less when writing CSS depending on the environment we're working in
-- Elements that occur only once may use IDs, f.x. #container, #footer, #nav but use classes if in any doubt
+We use Sass or Less when writing CSS depending on the environment we're working in
 
 # Naming conventions
+- Elements that occur only once may use IDs, f.x. #container, #footer, #nav but use classes if in any doubt
 - Class names, attributes and values should be written in lowercase, with words seperated by dashes, f.x.: `.main-image`
 - Don't use too generic names for classes:
 
   **Bad:** `.facebook`
-  **Recommended:** `.share-facebook
+  **Recommended:** `.share-facebook`
 
   **Bad:** .`date`
   **Recommended:** `.post-date`
@@ -123,7 +123,7 @@ assets/css
 
     **Bad:**
 
-    ```
+    ```scss
     $body-font: "Arial";
     $heading-font: "Arial Black";
     $red-color: red;
@@ -131,7 +131,7 @@ assets/css
 
     **Recommended:**
 
-    ```
+    ```scss
     $font-body: "Arial";
     $font-heading: "Arial Black";
     $color-red: red;
